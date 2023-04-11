@@ -1,5 +1,5 @@
 <header>
-  <a href="/">About</a>
-  <a href="/papers">Papers</a>
-  <a href="/cv">CV</a>
+  <a href="/" {% if page.url == "/" %}style="color: red;"{% endif %} >About</a>
+  <a href="/papers" {% if page.url == "/papers" %}style="color: red;"{% endif %} >Papers</a>
+  <a href="/cv" {% if page.url == "/cv" %}style="color: red;"{% endif %} >CV</a>
 </header>

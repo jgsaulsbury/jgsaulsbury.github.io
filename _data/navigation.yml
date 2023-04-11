@@ -1,5 +1,7 @@
 - name: About
   link: /
+- name: Projects
+  link: /projects.html
 - name: Papers
   link: /papers.html
 - name: CV

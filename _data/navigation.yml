@@ -1,8 +1,8 @@
 - name: About
   link: /
 - name: Projects
-  link: /projects.html
+  link: /projects
 - name: Papers
-  link: /papers.html
+  link: /papers
 - name: CV
-  link: /cv.html
+  link: /cv

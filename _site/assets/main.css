@@ -124,6 +124,12 @@ table td { border: 1px solid #e8e8e8; }
 
 .post-link { display: block; font-size: 24px; }
 
+/* for three column config */
+.column { float: left; width: 33.33%; }
+
+/* Clear floats after the columns */
+.row:after { content: ""; display: table; clear: both; }
+
 /** Posts */
 .post-header { margin-bottom: 30px; }
 

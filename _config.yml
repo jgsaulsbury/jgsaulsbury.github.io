@@ -16,8 +16,7 @@ minima:
   # Generate social links in footer.
   #
   social_links:
-  #   - { platform: google_scholar, user_url: "https://scholar.google.com/citations?user=8_V5N1EAAAAJ" }
-     - { platform: twitter,        user_url: "https://twitter.com/jgsaulsbury" }
-     - { platform: github, user_url: "https://github.com/jgsaulsbury" }
-     - { platform: researchgate,        user_url: "https://www.researchgate.net/profile/James-Saulsbury" }
-
+     - { platform: twitter, name: Twitter, user_url: "https://twitter.com/jgsaulsbury" }
+     - { platform: github, name: GitHub, user_url: "https://github.com/jgsaulsbury" }
+     - { platform: researchgate, name: ResearchGate, user_url: "https://www.researchgate.net/profile/James-Saulsbury" }
+     - { platform: google_scholar, name: Google Scholar, user_url: "https://scholar.google.com/citations?user=8_V5N1EAAAAJ" }

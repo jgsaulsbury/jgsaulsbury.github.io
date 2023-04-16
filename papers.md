@@ -5,11 +5,19 @@ permalink: /papers
 ---
 This is where my publications and preprints will go.
 
-  {% for paper in site.data.papers %}
-
-    {{ppr}}
-
-    Looks neat, cannot wait to read it
-
+<l>
+  {% for item in site.data.navigation %}
+    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
+      {{ item.name }}
+    </a>
+    <br>
   {% endfor %}
+</l>
 
+
+<l>
+  {% for paper in site.data.papers %}
+    {{paper.year}}
+    <br>
+  {% endfor %}
+</l>

@@ -3,21 +3,23 @@ layout: default
 title: "Papers"
 permalink: /papers
 ---
-This is where my publications and preprints will go.
-
-<l>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link }}" {% if page.url == item.link %}style="color: red;"{% endif %}>
-      {{ item.name }}
-    </a>
-    <br>
-  {% endfor %}
-</l>
-
-
+## Journal articles
 <l>
   {% for paper in site.data.papers %}
-    {{paper.year}}
-    <br>
+    {% if paper.journal != "bioRxiv" %}
+    {% for author in paper.authors %}
+      {% if author == "James G. Saulsbury" %}<b>{{author}}</b>{% else %}{{author}}{% endif %}{% if forloop.last == true %}. {% elsif forloop.rindex0 == 1 %}{% if forloop.length > 2 %},{% endif %} and{% else %},{% endif %}{% endfor %}<a href="https://doi.org/{{paper.doi}}">{{paper.title}}</a>. {{paper.year}}, <i>{{paper.journal}}</i>.
+    <br><br>
+    {% endif %}
+  {% endfor %}
+</l>
+## Preprints
+<l>
+  {% for paper in site.data.papers %}
+    {% if paper.journal == "bioRxiv" %}  
+    {% for author in paper.authors %}
+      {% if author == "James G. Saulsbury" %}<b>{{author}}</b>{% else %}{{author}}{% endif %}{% if forloop.last == true %}. {% elsif forloop.rindex0 == 1 %}{% if forloop.length > 2 %},{% endif %} and{% else %},{% endif %}{% endfor %}<a href="https://doi.org/{{paper.doi}}">{{paper.title}}</a>. <i>bioRxiv.</i>
+    <br><br>
+    {% endif %}
   {% endfor %}
 </l>

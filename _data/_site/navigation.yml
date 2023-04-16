@@ -1,0 +1,6 @@
+- name: CV
+  link: /cv
+- name: Papers
+  link: /papers
+- name: Projects
+  link: /projects

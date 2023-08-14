@@ -8,7 +8,7 @@ permalink: /papers
   {% for paper in site.data.papers %}
     {% if paper.journal != "bioRxiv" %}
     {% for author in paper.authors %}
-      {% if author == "James G. Saulsbury" %}<b>{{author}}</b>{% else %}{{author}}{% endif %}{% if forloop.last == true %}. {% elsif forloop.rindex0 == 1 %}{% if forloop.length > 2 %},{% endif %} and{% else %},{% endif %}{% endfor %}<a href="https://doi.org/{{paper.doi}}">{{paper.title}}</a>. {{paper.year}}, <i>{{paper.journal}}</i>.
+      {% if author == "James G. Saulsbury" %}<b>{{author}}</b>{% else %}{{author}}{% endif %}{% if forloop.last == true %}. {% elsif forloop.rindex0 == 1 %}{% if forloop.length > 2 %},{% endif %} and{% else %},{% endif %}{% endfor %}{% if paper.doi %}<a href="https://doi.org/{{paper.doi}}">{{paper.title}}</a>{% else %}{{paper.title}}{% endif %}. {{paper.year}}, <i>{{paper.journal}}</i>.
     <br><br>
     {% endif %}
   {% endfor %}

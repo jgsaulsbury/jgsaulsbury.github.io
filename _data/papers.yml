@@ -1,8 +1,8 @@
 - year: In review
   authors: [James G. Saulsbury,C. Tomomi Parins-Fukuchi,Connor J. Wilson,Trond Reitan,Lee Hsiang Liow]
   title: Age-dependent extinction and the neutral theory of biodiversity
-  journal: Proceedings of the National Academy of Sciences
-  doi: 10.1101/2023.08.23.554417
+  journal: Proceedings of the National Academy of Sciences. <a href="https://doi.org/10.1101/2023.08.23.554417">Preprint available here</a>
+  #doi: 10.1101/2023.08.23.554417
 - year: Accepted
   authors: [Kjetil L. Voje,James G. Saulsbury,Jostein Starrfelt,Daniel Varajão de Latorre,Alexis Rojas,Vilde Bruhn Kinneberg,Lee Hsiang Liow,Connor J. Wilson,Erin Saupe, Mark Grabowski]
   title: Measurement theory and paleobiology
@@ -36,10 +36,6 @@
   title: Crinoid respiration and the distribution of energetic strategies among marine invertebrates
   journal: Biological Journal of the Linnean Society
   doi: 10.1093/biolinnean/blz167
-- authors: [James G. Saulsbury]
-  title: Permutation tests for comparative data
-  journal: bioRxiv
-  doi: 10.1101/2020.10.24.325472
 - year: 2019
   authors: [James G. Saulsbury,David K. Moss,Linda C. Ivany,Michał Kowalewski,David R. Lindberg,James F. Gillooly,Noel A. Heim,Craig R. McClain,Jonathan L. Payne,Peter D. Roopnarine,Bernd R. Schöne,David Goodwin,Seth Finnegan]
   title: Evaluating the influences of temperature, primary production, and evolutionary history on bivalve growth rates

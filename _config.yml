@@ -19,4 +19,4 @@ minima:
      - { platform: twitter, name: Twitter, user_url: "https://twitter.com/jgsaulsbury" }
      - { platform: github, name: GitHub, user_url: "https://github.com/jgsaulsbury" }
      - { platform: researchgate, name: ResearchGate, user_url: "https://www.researchgate.net/profile/James-Saulsbury" }
-     - { platform: google_scholar, name: Google Scholar, user_url: "https://scholar.google.com/citations?user=8_V5N1EAAAAJ" }
+     - { platform: google_scholar, name: Google Scholar, user_url: "https://scholar.google.com/citations?user=c3P5J-sAAAAJ&hl=en&authuser=1" }

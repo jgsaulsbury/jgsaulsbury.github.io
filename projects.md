@@ -11,7 +11,7 @@ permalink: /projects
 
 ![tpf](/assets/img/nt.png){:style="float: right;margin-right: 30px;margin-bottom: 20px; width: 260px;"}
 
-How do species change over time—in their abundance, competitive ability, and potential for extinction, speciation, or fossilization—and can these changes be predicted? Much of my reseach uses ecological and evolutionary theory to address these questions in the fossil record. This includes efforts to model fossil species survivorship with ecological neutral theory (figure at right, from <a href="https://doi.org/10.1101/2023.08.23.554417">here</a>), ongoing investigation into the role of selection and drift in the rise and fall of species in the fossil record, and new work exploring the implications of individual-based models for ancestry in the fossil record.
+How do species change over time—in their abundance, interactions, and potential for extinction, speciation, or fossilization? And how do these changes flow from simple ecological and evolutionary theory? My work in this area includes efforts to model fossil species survivorship with ecological neutral theory (figure at right, from <a href="https://doi.org/10.1101/2023.08.23.554417">here</a>), ongoing investigation into the role of selection and drift in the rise and fall of species in the fossil record, and new work exploring the implications of individual-based models for the prevalence of ancestors in the fossil record.
 
 <div>
 </div>
